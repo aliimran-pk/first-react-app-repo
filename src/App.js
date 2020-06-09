@@ -3,8 +3,20 @@ import logo from './logo.svg';
 import './App.css';
 import HelloComponent from './HelloComponent';
 import './HelloComponent.css';
+import Avatar from './Avatar';
 
-function App() {
+function App() 
+{
+  return ( 
+<div>
+<Avatar userName="jacques"/>
+<Avatar userName="julie"/>
+<Avatar userName="jake"/>
+<Avatar userName="john"/>
+</div>
+)
+}
+{/*
 return ( 
 <div>
   <HelloComponent componentId="001" userName="Ali Imran" rollNo="PIAIC50192"/>
@@ -14,7 +26,10 @@ return (
   <HelloComponent componentId="003" userName="Ali Imran" rollNo="PIAIC50192"/>
 </div>
 );
-  {/*
+*/}  
+
+
+{/*
   return (
     <div className="App">        
         <ul>
@@ -25,5 +40,5 @@ return (
     </div>
   );
  */}
-}
+
 export default App;

@@ -20,7 +20,7 @@ return (
         <ul>
          <li>ALI IMRAN</li>
          <li>PIAIC50192</li>
-         <li>BootCamp Class 2 Assignment</li>         
+         <li>BootCamp Class 2  Assignment-2 </li>         
        </ul>
     </div>
   );

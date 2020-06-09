@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 function HelloComponent(props)
 {
     return(
-        <div class='maindiv_style'>
+        <div>
         <h1>This is Component {props.componentId} added by {props.userName} having RollNo {props.rollNo}</h1>
         </div>
 

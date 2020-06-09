@@ -5,6 +5,7 @@ import HelloComponent from './HelloComponent';
 import './HelloComponent.css';
 import Avatar from './Avatar';
 
+/*
 function App() 
 {
   return ( 
@@ -16,7 +17,10 @@ function App()
 </div>
 )
 }
-{/*
+*/
+
+function App() 
+{
 return ( 
 <div>
   <HelloComponent componentId="001" userName="Ali Imran" rollNo="PIAIC50192"/>
@@ -26,8 +30,7 @@ return (
   <HelloComponent componentId="003" userName="Ali Imran" rollNo="PIAIC50192"/>
 </div>
 );
-*/}  
-
+}
 
 {/*
   return (

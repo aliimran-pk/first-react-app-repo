@@ -31,8 +31,8 @@ jobs:
         # Yarn command
         cmd: install # npm install/ yarn install
     
-    - name: installing tachyons  
-      run: npm install tachyons
+#    - name: installing tachyons  
+ #     run: npm install tachyons
   
     - name: Creating build
       run: yarn build

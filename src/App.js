@@ -1,11 +1,40 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import HelloComponent from './HelloComponent';
 import './HelloComponent.css';
 import Avatar from './Avatar';
+import {Message} from './Message.js'
+import './App.css';
 
-/*
+export default function App() {
+
+  let [count, setCount] = useState(1);
+  let [isMorning, setMorning] = useState(false)
+
+  return (
+    <div className={`box ${isMorning ? 'dayLight' : 'nght'}`}>
+
+      <h1>Good {isMorning ? 'Morning' : 'Night'}</h1>
+
+      <Message counter={count} />
+      <br />
+
+      <button onClick={() => setCount(count + 1)}>
+        Update Counter
+      </button>
+
+      <button onClick={() => setMorning(!isMorning)}> 
+        Show {isMorning ? 'Night': 'Morning'}
+      </button>
+
+    </div>
+  );
+}
+
+
+
+{/* 
 function App() 
 {
   return ( 
@@ -17,10 +46,10 @@ function App()
 </div>
 )
 }
-*/
+*/}
 
-function App() 
-{
+
+{/*
 return ( 
 <div>
   <HelloComponent componentId="001" userName="Ali Imran" rollNo="PIAIC50192"/>
@@ -30,6 +59,7 @@ return (
   <HelloComponent componentId="003" userName="Ali Imran" rollNo="PIAIC50192"/>
 </div>
 );
+*/
 }
 
 {/*
@@ -44,4 +74,4 @@ return (
   );
  */}
 
-export default App;
+//export default App;

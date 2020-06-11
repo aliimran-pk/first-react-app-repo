@@ -1,3 +1,4 @@
+/*
 import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
 import 'tachyons';
@@ -12,3 +13,4 @@ function Avatar(props)
     )
 }
 export default Avatar;
+*/

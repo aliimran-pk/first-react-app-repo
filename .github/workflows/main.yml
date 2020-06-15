@@ -1,12 +1,12 @@
 # This is a basic workflow to help you get started with Actions
 
-name: First React Application
+name: useContext useReducer Example
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [ branch-1 ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -43,4 +43,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build aliimran-piaicbootcamp-session2.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build aliimran-piaicbootcamp-session5.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
